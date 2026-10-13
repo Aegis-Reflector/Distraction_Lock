@@ -25,6 +25,7 @@ while read -r domain; do
         echo "0.0.0.0 $domain" >> "$HOSTS"
 	echo "::1 $domain" >> "$HOSTS"
         echo "Blocked : $domain"
+	python3 log_attempt.py "$domain"
     fi
 done < "$BLOCKLIST"
 
