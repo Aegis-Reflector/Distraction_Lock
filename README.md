@@ -10,7 +10,9 @@ Distraction_Lock is a tool for Arch Linux that blocks distracting domains by red
 
 ## Installation
 
-Clone the repo
+clone the repo
+
+Make the scripts executable and initializing the db
 ```bash
 chmod +x blocker.sh deblocker.sh
 python init_db.py
