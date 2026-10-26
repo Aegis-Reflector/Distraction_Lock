@@ -37,10 +37,6 @@ How to lauch the systemd service
 sudo systemctl start blocker.service
 ```
 
-```python
-
-```
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
