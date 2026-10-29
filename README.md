@@ -4,8 +4,11 @@ Distraction_Lock is a tool for Arch Linux that blocks distracting domains by red
 
 ## Requirements
 -Arch Linux (or any distros with systemd)
+
 -Bash
+
 -Python 3
+
 -SQLite
 
 ## Installation
